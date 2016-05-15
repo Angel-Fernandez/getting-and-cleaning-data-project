@@ -1,5 +1,5 @@
 # getting-and-cleaning-data-project
-<h1>Coursera getting and cleaning data project<h1>
+<h1>Coursera getting and cleaning data project</h1>
 
 In this final project our pourpose is create a report via a information downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
