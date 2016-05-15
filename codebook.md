@@ -12,18 +12,19 @@
 </ol>
 
 <h3>Project contents</h3>
-• codebook.txt
-• README.md
-• run_analysis.R
+<ul><li>codebook.md</li>
+<li>README.md</li>
+<li>run_analysis.R</li>
+</ul>
 
-<h3>Activity Labels<h3>
+<h3>Activity Labels</h3>
 
-• WALKING
-• WALKING_UPSTAIRS
-• WALKING_DOWNSTAIRS
-• SITTING
-• STANDING
-• LAYING
+<ul><li>WALKING</li>
+<li>WALKING_UPSTAIRS</li>
+<li>WALKING_DOWNSTAIRS</li>
+<li>SITTING</li>
+<li>STANDING</li>
+<li>LAYING</li></ul>
 <h3>Variables used:</h3>
   
   <ul>
