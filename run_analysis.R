@@ -97,7 +97,7 @@ data_melted <- melt(final_data, id = c("Subject_ID", "Activity"))
 report <- dcast(data_melted, Subject_ID + Activity ~ variable, mean)
 
 #Save final results as csv
-write.csv(report, "TIDY.csv",row.names = FALSE)
+write.csv(report, "TIDY.txt",row.names = FALSE)
 
 
 
