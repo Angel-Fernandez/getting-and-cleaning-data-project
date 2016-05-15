@@ -53,5 +53,5 @@ We have done some tasks like
   </p>
   
   <p>
-  In the last step we create a new dataset based on the last dataset created in the other steps. These new dataset contains with the average of each variable for each activity and each subject. Finally when it's done we save the new dataset in a file called TYDI.csv.
+  In the last step we create a new dataset based on the last dataset created in the other steps. These new dataset contains with the average of each variable for each activity and each subject. Finally when it's done we save the new dataset in a file called TIDY.csv.
   </p>
