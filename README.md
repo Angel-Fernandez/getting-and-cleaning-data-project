@@ -1,5 +1,5 @@
 # getting-and-cleaning-data-project
-Coursera getting and cleaning data project
+<h1>Coursera getting and cleaning data project<h1>
 
 In this final project our pourpose is create a report via a information downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -12,7 +12,7 @@ We have done some tasks like:
 5. Create a new dataset using factors like the activities and compute the average of each variable. 
 
 
-Variables used:
+<h3>Variables used:</h3>
   
   <ul>
   <li>local_path --> for the original dataset</li>
@@ -37,3 +37,21 @@ Variables used:
   <li>data_melted --> data melted for the report</li>
   <li>report --> contains the dataset using the factors and the average of each variable. </li>
   </ul>
+  
+  <h3>Code explanation</h3>
+  <p>
+   First i check if the dowload has been done. If not, i download the data and unzip it.
+  Then I build paths for the original datasets, I load it and merge both training and test.
+  </p>
+  
+  <p>
+  One time this is done, is time for the headers and select which are the data of interest (the data that contains the words 'std' and 'mean'). Also the heders must be merged and the data must be limited to these headers, the rest is descarted.
+  </p>
+  
+  <p>
+  After I load the activities files (again test and training). The activities and the headers have or not names onoly numbers or not good readable names. The next step is solve this with replacements. In the activity_labels.txt file we have the activity number to name traduction.
+  </p>
+  
+  <p>
+  In the last step we create a new dataset based on the last dataset created in the other steps. These new dataset contains with the average of each variable for each activity and each subject. Finally when it's done we save the new dataset in a file called TYDI.csv.
+  </p>
